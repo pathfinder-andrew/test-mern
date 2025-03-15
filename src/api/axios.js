@@ -3,7 +3,7 @@ import axiosDefault from "axios";
 const isProduction = process.env.NODE_ENV === "production";
 
 const baseURL = isProduction
-  ? "https://test-mern-xi.vercel.app"
+  ? "https://test-mern-server.onrender.com/"
   : "http://localhost:5000";
 
 const defaultOptions = {
